@@ -1,7 +1,3 @@
-# sample
-
-> A Vue.js project
-
 ## Build Setup
 
 ``` bash
@@ -17,5 +13,13 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+Build image:
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
+docker build -t <yourname>/vue-web-app-docker .
+```
+Run image:
+```
+docker run -p 3838:3838 <yourname>/vue-web-app-docker
+```
+```Dockerfile``` starts a node server on port 3838.
