@@ -6,7 +6,7 @@
 </template>
 
 <script>
-console.log(this.$router);
+console.log(window.location);
 export default {
   name: 'App'
 }
