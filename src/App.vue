@@ -6,6 +6,7 @@
 </template>
 
 <script>
+console.log(this.$router);
 export default {
   name: 'App'
 }
